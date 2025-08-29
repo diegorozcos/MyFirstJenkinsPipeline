@@ -13,6 +13,11 @@ pipeline {
                 sh './myscript'
             }
         }
+        stage('Ejecutar script de Python') {
+            steps {
+                sh 'python3 sum.py'
+            }
+        }
     }
 }
 
