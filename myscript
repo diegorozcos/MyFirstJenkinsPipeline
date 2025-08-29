@@ -1,0 +1,11 @@
+#!/bin/bash
+
+whoami
+echo
+ls -l
+echo
+pwd
+echo
+echo "Hello, World!"
+echo
+date
